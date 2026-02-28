@@ -31,6 +31,10 @@ img {
 .grid {
   margin: 0 auto;
   max-width: 980px;
+  /*Display the <article> and <aside> elements as a two-column layout, with the former three times as wide as the latter. The columns should be a flexible size so that if the browser window gets narrower, the columns become narrower. Include a 20-pixel gap between the two columns.*/
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  gap: 20px;
 }
 
 nav {
@@ -60,8 +64,15 @@ nav a {
   list-style: none;
   margin: 0;
   padding: 0;
+  /*The photographs should display as a two-column grid with equal-sized columns and a 5-pixel gap between the images.*/
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 0.5fr 0.5fr;
 }
 
 .feature {
   width: 200px;
+  /* Cause the "feature" image inside the article to have text wrapped around it to the right and bottom, with a suitable amount of space between the image and the text.*/
+  float: left;
+  margin: 10px 30px 20px 0;
 }
