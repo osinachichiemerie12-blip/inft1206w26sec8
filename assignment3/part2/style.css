@@ -90,7 +90,25 @@ ol{
 }
 
 /* Navigation menu styling */
+nav li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
 nav li a {
-    font-size: 1.3rem;
+    font-family: "Bree Serif", serif;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.2rem;
     line-height: 3.4;
+    border: 1px solid #aa6666;
+}
+nav li a:focus,
+nav li a:hover {
+  color: white;
+  background: #aa6666;
 }
