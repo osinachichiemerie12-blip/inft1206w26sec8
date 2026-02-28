@@ -36,12 +36,18 @@ img {
 nav {
   background-color: black;
   padding: 0.5em;
+  /* Make navigation bar scroll with content nirmally*/
+  top: 0;
+  position: sticky;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  /* Display the navigation items in a row*/
+  display: flex;
+  justify-content: space-between;
 }
 
 nav a {
