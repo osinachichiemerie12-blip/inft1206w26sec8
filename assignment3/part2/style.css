@@ -5,6 +5,13 @@
     Description: CSS file for my html file
 */
 /* General setup */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    font-family: "PT Serif", serif;
+}
+h1,h2{
+    font-family: "Bree Serif", serif;
+}
 
 * {
   box-sizing: border-box;
@@ -38,4 +45,27 @@ footer {
 
 footer p {
   text-align: center;
+}
+/* General text styling */
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 2.8px;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    letter-spacing: 0.8px;
+}
+section h2 + p {
+    text-indent: 2rem;
+}
+p, li {
+    line-height: 1.5;
+}
+
+/* Navigation menu styling */
+nav li a {
+    font-size: 1.3rem;
+    line-height: 3.4;
 }
