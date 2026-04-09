@@ -1,8 +1,8 @@
 /*
 Name: Osinach-Nnedu Chiemerie
 File: p1.js
-Date: 20 September 2026
-Assignment 4 pasrt 1
+Date: 9 April 2026
+Assignment 4 part 1
 */
 // Complete variable definitions and random functions
 
