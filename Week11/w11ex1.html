@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form div {
+            margin-bottom: 20px;
+        }
+    </style>
+    <title>week 11</title>
+</head>
+
+<body>
+    <h1>Week 11: Introduction to Form</h1>
+    <form action="#" method="get">
+        <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" title="First Name">
+        </div>
+        <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" title="Password">
+        </div>
+        <div>
+            <label for="">Upload Your Assignment</label>
+            <input type="file" id="assfile" name="assfile">
+        </div>
+        <div>
+            <label for="">What are your favourite activities:</label>
+        <div>
+            <input type="checkbox" id="interest1" name="interest" value="Football" checked>
+            <label for="interest1">Football</label>
+            <input type="checkbox" id="interest2" name="interest" value="Still Football">
+            <label for="interest2">Still Football</label>
+        </div>
+        <div>
+            <label for="">Which club do you support?</label>
+        </div>
+        <div>
+            <input type="radio" name="club" id="club1" value="Chelsea" checked>
+            <label for="">Chelsea</label>
+            <input type="radio" name="club" id="club2" value="Manchester United">
+            <label for="">Manchester United</label>
+            <input type="radio" name="club" id="club3" value="Barcelona">
+            <label for="">Barcelona</label>
+        </div>
+        <div>
+            <label for="">What do you want to do this weekend?</label>
+            <select name="weekend" id="weekend">
+                <option value="Drink">Drink Coffe</option>
+                <option value="Watch Chelsea">Watch a Chelsea Game</option>
+                <option value="Outing">Go out with me</option>
+                <option value="Watch Movie">Watch a movie together</option>
+            </select>
+        </div>
+        <div>
+            <label for="">How is web development going so far?</label>
+            <textarea name="" id="" rows="5" cols="20"></textarea>
+        </div>
+        <input type="button" value="OK">
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
