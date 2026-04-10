@@ -43,4 +43,10 @@ function updateDisplayedImage(e) {
   displayedImage.alt = e.target.alt;
 }
 
+// Wiring up the darken/lighten button
+btn.addEventListener("click", () => {
+    if (btn.classList.contains("dark")) {
+        btn.textContent = "Lighten";
+        overlay.style.backgroundColor = "rgb(0 0 0 / 0.5)";
+    
 
