@@ -37,3 +37,10 @@ for (let image of images) {
   });
 }
 
+// Create the updateDisplayedImage()
+function updateDisplayedImage(e) {
+  displayedImage.src = e.target.src;
+  displayedImage.alt = e.target.alt;
+}
+
+
